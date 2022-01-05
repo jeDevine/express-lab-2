@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave a Review!</title>
+    <link rel="stylesheet" href="generalStyle.css">
+</head>
+<body>
+    <h1>Leave a Review!</h1>
+    <form action="/review-submit" method="GET">
+        Your Name:<input type="text" name="name"><br>
+        Comment:<input type="textarea" name="comment" size="100">
+        <h4>Rating</h4>
+        5<input type="radio" name="rating" value="5">
+        4<input type="radio" name="rating" value="4">
+        3<input type="radio" name="rating" value="3">
+        2<input type="radio" name="rating" value="2">
+        1<input type="radio" name="rating" value="1">
+        <input type="submit">
+        <a href="/">Never Mind</a>
+    </form>
+</body>
+</html>

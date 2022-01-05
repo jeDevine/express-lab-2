@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Have It Your Way!</title>
+    <link rel="stylesheet" href="generalStyle.css">
+</head>
+<body>
+    <form action="/personal-pizza">
+    <h1>Build your own Pizza</h1>
+    <label for="size">Size
+        <select name="size">
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+        </select>
+    </label><br>
+    <label for="number">How many toppings?
+        <input type="number" name="number">
+    </label>
+    <ul>
+        <li>Pepperoni<input type="checkbox" name="pepperoni"></li>
+        <li>Sausage<input type="checkbox" name="sausage"></li>
+        <li>Chicken<input type="checkbox" name="chicken"></li>
+        <li>Mushroom<input type="checkbox" name="mushroom"></li>
+        <li>Olive<input type="checkbox" name="olive"></li>
+        <li>Green Pepper<input type="checkbox" name="greenPepper"></li>
+        <li>Onion<input type="checkbox" name="onion"></li>
+        <li>Banana Pepper<input type="checkbox" name="bananaPepper"></li>
+        <li>Anchovies<input type="checkbox" name="anchovies"></li>
+        <li>Pineapple<input type="checkbox" name="pineapple"></li>
+    </ul>
+    <label for="gluten">Gluten-Free Crust? ($2.00 extra)
+        <input type="checkbox" name="gluten">
+    </label><br>
+    <label for="special">Special Instructions? (optional)<input type="text" name="special"></label>
+    <input type="submit">
+    <a href="/">Never Mind</a>
+    </form>
+</body>
+</html>
